@@ -64,7 +64,7 @@ pip install customtkinter scapy
 
 ---
 
-### 3️⃣ Run PacRat
+### 3️⃣ Run NetViper
 
 Open terminal as **Administrator** and execute:
 
