@@ -37,3 +37,124 @@ Built using **Python**, **Scapy**, and **CustomTkinter**, NetViper ensures all c
 │ 172.20.10.2 -> 149.88.23.102 | Proto: 17
 │ Status: Monitoring Live Traffic... │
 └────────────────────────────────────┘
+```
+
+---
+
+# ⚙️ Installation
+
+## Windows Setup
+
+### 1️⃣ Install Npcap
+
+Download and install Npcap:
+
+👉 https://npcap.com/
+
+> أثناء التثبيت قم بتفعيل:
+> **"WinPcap API-compatible Mode"**
+
+---
+
+### 2️⃣ Install Python Dependencies
+
+```bash
+pip install customtkinter scapy
+```
+
+---
+
+### 3️⃣ Run PacRat
+
+Open terminal as **Administrator** and execute:
+
+```bash
+python netviper.py
+```
+
+---
+
+# 🐧 Linux Setup
+
+## Install Dependencies
+
+```bash
+sudo apt install python3-pip
+pip3 install customtkinter scapy
+```
+
+---
+
+## Run with Root Privileges
+
+```bash
+sudo python3 netviper.py
+```
+
+---
+
+# 🧠 Technical Workflow
+
+| ID | Phase | Functionality |
+|----|--------|----------------|
+| 01 | INIT | Initializes threaded Scapy sniffing engine |
+| 02 | CAPTURE | Hooks raw sockets for incoming/outgoing frames |
+| 03 | DISSECT | Extracts IP addresses and protocol information |
+| 04 | OUTPUT | Sanitizes payloads and streams to live UI |
+| 05 | COMMIT | Saves captured session data to forensic logs |
+
+
+
+# 📋 Requirements
+
+- Python 3.x
+- Scapy
+- CustomTkinter
+- Npcap (Windows only)
+- Root/Admin privileges
+
+---
+
+# 🔐 Ethical Use Disclaimer
+
+> Unauthorized monitoring or interception of network traffic is illegal.
+
+NetViper is intended strictly for:
+
+- Educational purposes
+- Authorized penetration testing
+- Security auditing
+- Internship research environments
+
+Always obtain proper authorization before monitoring any network traffic.
+
+
+# 👨‍💻 Developed By
+
+**Mohammed Shezil**  
+Prodigy InfoTech — Secure Core v1.2
+
+---
+
+# 🔗 Repository
+
+[GitHub Repository](https://github.com/Mohammedshezil/PRODIGY-CS-05)
+
+---
+
+# ⭐ Support
+
+If you like this project:
+
+- ⭐ Star the repository
+- 🍴 Fork the project
+- 🛡️ Contribute improvements
+- 📢 Share with the cybersecurity community
+
+---
+
+# 📜 License
+
+This project is intended for educational and research purposes only.
+
+Use responsibly.
